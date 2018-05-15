@@ -1,7 +1,12 @@
 ---
-message:
-  cool:
-    cooler:
-      coolest: "This is the coolest message"
+spring.profiles: one
 
+messge:
+    text: ONE
+
+---
+spring.profiles: two
+
+message:
+     text: TWO
 
