@@ -1,0 +1,16 @@
+---
+spring:
+   profiles: one
+   zipkin:
+     baseUrl: http://localhost:9411/
+
+message:
+    text: ONE
+
+---
+spring:
+  profiles: two
+
+message:
+     text: TWO
+
